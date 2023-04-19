@@ -361,6 +361,21 @@ code, pre{
     .features-main .grid > *:nth-child(2){
         grid-column: 1;
     }
+
+    .docs-head .grid{
+        padding: 0 20px;
+        overflow: hidden;
+    }
+
+    .docs-head .container h1{
+        font-size: 60px;
+    }
+
+    .footer .container .social i{
+        font-size: 20px;
+        margin-left: -10px;
+        padding: 0;
+    }
 }
 
 /* MOBILE VIEW*/
@@ -376,5 +391,15 @@ code, pre{
     .navbar ul{
         padding: 10px;
         background-color: rgba(0,0,0,0.1);
+    }
+
+    .docs-head .container h1{
+        font-size: 40px;
+    }
+
+    .footer .container .social i{
+        display: grid;
+        grid-column: 1;
+        justify-content: center;
     }
 }
